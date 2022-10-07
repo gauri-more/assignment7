@@ -61,6 +61,11 @@ ul.navbar-nav li {
     margin-left: 15px;
     font-size: 15px;
 }
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: start;
+}
 
 /* .navbar-nav {
     text-align: right;

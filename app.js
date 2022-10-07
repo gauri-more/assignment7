@@ -210,4 +210,18 @@ jQuery("#site-carousel").owlCarousel({
         }
     });
 
+    // const val = localStorage.getItem('isChecked');
+    // console.log(val)
+
+    if (JSON.parse(localStorage.getItem('isChecked')) != true) {
+        $("#myModal").modal('show');
+    }
+
+    document.getElementById('flexCheckChecked').addEventListener('change', function(event) {
+        if (event.target.checked) {
+            localStorage.setItem('isChecked', event.target.checked);
+            $("#myModal").modal('hide');
+        }
+    })
+
 })
