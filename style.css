@@ -462,10 +462,19 @@ img.profile {
 .owl-carousel .owl-dots button.owl-dot:focus {
     outline: none;
 }
- .modal-body iframe {
-     width: 450px;
-     height: auto;
- }
+
+.modal-body iframe {
+    width: 450px;
+    height: auto;
+}
+
+.fixed-left {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 1030;
+}
+
 /* .fixed-btn{
     position: fixed;
 } */
@@ -540,8 +549,8 @@ img.profile {
     }
 
     .btn-red {
-        height: 40px;
-        width: 160px;
+        height: 37px;
+        width: 145px;
         background-color: #ff4530;
         color: white;
         margin-top: 0rem !important;
@@ -566,10 +575,11 @@ img.profile {
     .section-padding {
         padding: 10px 50px;
     }
-        .modal-body iframe {
-            width: 350px;
-            height: auto;
-        }
+
+    .modal-body iframe {
+        width: 100%;
+        height: auto;
+    }
 
 }
 
@@ -616,19 +626,24 @@ img.profile {
     }
 
     .navbar-toggler {
-        margin: 0 auto;
+        /* margin: 0 auto; */
         margin-top: 10px;
 
     }
 
     img.profile {
         position: absolute;
-        top: 35px!important;
+        top: 35px !important;
     }
-    .modal-body iframe{
-        width: 240px;
+
+    .modal-body iframe {
+        width: 100%;
         height: auto;
     }
 
+    .btn-red i {
+        font-size: 16px !important;
+        padding: 0px 12px !important;
+    }
 
 }
