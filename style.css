@@ -61,9 +61,10 @@ ul.navbar-nav li {
     margin-left: 15px;
     font-size: 15px;
 }
-.navbar-nav {
+
+/* .navbar-nav {
     text-align: right;
-}
+} */
 
 .navbar-padding {
     padding: 15px 20px;
@@ -86,9 +87,11 @@ ul.navbar-nav li {
 .section-padding {
     padding: 10px 70px;
 }
-
-.sub-nav a:active,
-.sub-nav a:hover {
+.btn-close {
+    margin: 0 auto;
+}
+.navbar-nav a:active,
+.navbar-nav a:hover {
     color: red;
 }
 
@@ -559,16 +562,24 @@ img.profile {
         font-size: 20px !important;
         /* font-family: 'Sen', sans-serif; */
     }
-.banner-slider .btn-red {
-     height: 30px;
-     width: 130px;
-     background-color: #ff4530;
-     color: white;
-     margin-top: 0rem !important;
-     font-size: 12px !important;
- }
+
+    .banner-slider .btn-red {
+        height: 30px;
+        width: 130px;
+        background-color: #ff4530;
+        color: white;
+        margin-top: 0rem !important;
+        font-size: 12px !important;
+    }
+
+    .navbar-nav {
+        /* text-align: right; */
+        width: 70%;
+
+    }
+
     .btn-red {
-        height:40px;
+        height: 40px;
         width: 155px;
         background-color: #ff4530;
         color: white;
@@ -669,8 +680,8 @@ img.profile {
         font-size: 15px !important;
         padding: 0px px !important;
     } */
-    .banner-slider p{
-        margin-bottom: 0!important;
+    .banner-slider p {
+        margin-bottom: 0 !important;
     }
 
 }
