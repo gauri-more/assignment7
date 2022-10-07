@@ -58,8 +58,11 @@
 }
 
 ul.navbar-nav li {
-    margin-left: 25px;
+    margin-left: 15px;
     font-size: 15px;
+}
+.navbar-nav {
+    text-align: right;
 }
 
 .navbar-padding {
@@ -470,15 +473,24 @@ img.profile {
 
 .fixed-left {
     position: fixed;
-    top: 100px;
-    left: 0;
+    top: 126px;
+    left: -108px;
     z-index: 1030;
 }
 
 /* .fixed-btn{
     position: fixed;
 } */
-
+.enquiry-btn {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform-origin: bottom right;
+}
 
 
 
@@ -547,10 +559,17 @@ img.profile {
         font-size: 20px !important;
         /* font-family: 'Sen', sans-serif; */
     }
-
+.banner-slider .btn-red {
+     height: 30px;
+     width: 130px;
+     background-color: #ff4530;
+     color: white;
+     margin-top: 0rem !important;
+     font-size: 12px !important;
+ }
     .btn-red {
-        height: 30px;
-        width: 130px;
+        height:40px;
+        width: 155px;
         background-color: #ff4530;
         color: white;
         margin-top: 0rem !important;
@@ -590,7 +609,7 @@ img.profile {
 
 @media only screen and (max-width:452px) {
     .btn-black {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
     }
 }
 

@@ -82,7 +82,7 @@
         </div>
         </div>
     </section>
-  <header class="sticky-top">
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg  navbar-padding background-white">
             <div class="container-fluid">
                 <div class="company-logo">
@@ -119,7 +119,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#contact-us">CONTACT</a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a class="nav-link" href="#"><button type="button" class="btn btn-sm-red">HIRE
                                     ME</button></a>
@@ -133,6 +133,49 @@
         </nav>
         <div class="navbar-seperator"></div>
     </header>
+    <div class="fixed-btn fixed-left enquiry-btn">
+        <button type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Quick Enquiry</button>
+    </div>
+    <section id="sticky-button">
+        <div class="enquery-form-container text-center mt-4 ">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel"> SEND ENQUIRY HERE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="full-name" class="col-form-label">Full Name:</label>
+                                    <input type="text" class="form-control" id="full-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="contact" class="col-form-label">Contact No:</label>
+                                    <input type="text" class="form-control" id="full-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="col-form-label">Email:</label>
+                                    <input type="email" class="form-control" id="full-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message-text" class="col-form-label">Enquiry:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send Enquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="About-us">
         <div class="About-us-container section-padding mt-5">
 
@@ -144,9 +187,11 @@
 
 
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-red" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                READ MORE
-            </button>
+            <div class="read-more-btn text-center">
+                <button type="button" class="btn btn-red" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    READ MORE
+                </button>
+            </div>
 
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -208,4 +253,5 @@
         </div>
     </section>
 </body>
+
 </html>
