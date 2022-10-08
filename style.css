@@ -44,7 +44,7 @@
 
 .btn-red:hover,
 .btn-red:active {
-    background-color: #ac3629d5;
+    background-color: #ac3629d5 !important;
     color: white;
     border: 0;
 }
@@ -61,6 +61,7 @@ ul.navbar-nav li {
     margin-left: 15px;
     font-size: 15px;
 }
+
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
@@ -92,9 +93,11 @@ ul.navbar-nav li {
 .section-padding {
     padding: 10px 70px;
 }
+
 .btn-close {
     margin: 0 auto;
 }
+
 .navbar-nav a:active,
 .navbar-nav a:hover {
     color: red;
@@ -113,7 +116,7 @@ ul.navbar-nav li {
 
 .btn-black:active,
 .btn-black:hover {
-    background-color: #5f646789;
+    background-color: #5f646789 !important;
     color: white;
 }
 
@@ -158,7 +161,7 @@ ul.navbar-nav li {
 
 .btn-price-violet:active,
 .btn-price-violet:hover {
-    background-color: #a75ad479;
+    background-color: #a75ad479 !important;
     color: white;
 }
 
@@ -500,7 +503,40 @@ img.profile {
     transform-origin: bottom right;
 }
 
+.contact-us-form {
+    box-shadow: 0 2px 1px -1px #0003, 0 1px 1px #00000024, 0 1px 3px #0000001f;
+    border: none;
+    width: 60%;
+    margin: 0 auto;
+}
 
+.contact-us-form .form-control {
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0 !important;
+}
+
+.contact-us-card {
+    min-height: 160px;
+}
+
+.blog-img img {
+    min-height: 415px;
+}
+
+.blog-detail-profile img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.blog-form-card .form-control {
+    border-radius: 1.375rem;
+}
+.blog-form-card .form-label {
+    font-weight: 600;
+    color: gray;
+}
 
 
 
@@ -577,6 +613,15 @@ img.profile {
         font-size: 12px !important;
     }
 
+    .contact-us-form .btn-red {
+        height: 30px;
+        width: 100px;
+        background-color: #ff4530;
+        color: white;
+        margin-top: 0rem !important;
+        font-size: 12px !important;
+    }
+
     .navbar-nav {
         /* text-align: right; */
         width: 70%;
@@ -616,10 +661,10 @@ img.profile {
         padding: 10px 50px;
     }
 
-    .modal-body iframe {
+    /* .modal-body iframe {
         width: 100%;
         height: auto;
-    }
+    } */
 
 }
 
@@ -687,6 +732,13 @@ img.profile {
     } */
     .banner-slider p {
         margin-bottom: 0 !important;
+    }
+
+    .contact-us-form {
+        box-shadow: 0 2px 1px -1px #0003, 0 1px 1px #00000024, 0 1px 3px #0000001f;
+        border: none;
+        width: 100% !important;
+        margin: 0 auto;
     }
 
 }
